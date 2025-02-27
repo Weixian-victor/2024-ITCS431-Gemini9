@@ -30,9 +30,9 @@ name: SonarCloud analysis
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "Weixian" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "Weixian" ]
   workflow_dispatch:
 
 
