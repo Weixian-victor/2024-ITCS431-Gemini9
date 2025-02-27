@@ -30,10 +30,11 @@ name: SonarCloud analysis
 
 on:
   push:
-    branches: [ "Weixian" ]  # 确保这里的分支名正确
+    branches: [ "master" ]
   pull_request:
-    branches: [ "Weixian" ]
+    branches: [ "master" ]
   workflow_dispatch:
+
 
 permissions:
   pull-requests: read # 允许 SonarCloud 分析 PR 代码
